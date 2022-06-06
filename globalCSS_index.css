@@ -1,0 +1,367 @@
+	/*###################
+	#                   #
+	#   Font Families   #
+	#                   #
+	###################*/
+
+
+/*=== Sans-Serif Typefaces ===*/
+
+/* Avenir Next LT Pro 
+@font-face { font-family: "Avenir Next LT Pro";
+src: url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro_Light.eot')
+	 url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro_Light_Italic.eot')
+	 url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro_Italic.eot')
+	 url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro_Demi_Italic.eot')
+	 url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro_Demi.eot')
+	 url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro_Bold_Italic.eot')
+	 url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro_Bold.eot')
+	 url('https://newspectrum.w3spaces.com/Assets/Fonts/Avenir-Next-LT-Pro/Avenir_Next_LT_Pro.eot');
+ } 
+ 
+
+@font-face { font-family: "Avenir Next LT Pro";
+src: url('https://bit.ly/AvenirNextLight')
+	 url('https://bit.ly/AvenirNext-Light-Italic')
+	 url('https://bit.ly/AvenirNext-Italic')
+	 url('https://bit.ly/AvenirNext-Demi-Italic')
+	 url('https://bit.ly/AvenirNext-Demi')
+	 url('https://bit.ly/AvenirNext-Bold-Italic')
+	 url('https://bit.ly/AvenirNext-Bold')
+	 url('https://bit.ly/AvenirNext-Pro');
+
+ 
+ */
+	
+	
+/*=== Monospace Typefaces ===*/
+
+/* Consolas */
+
+/* Menlo */
+
+
+
+
+
+
+	/*###################
+	#                   #
+	#    Backgrounds    #
+	#                   #
+	###################*/
+
+
+/*===  Light-Themes ===*/
+
+	/* Full-Page Backgrounds [L] */
+	.pgBg01_Light {
+		background-color: #969696;
+					   /* White (70%)
+					      R-230
+					      G-230
+						  B-230 */
+		background-position: center;
+		background-size: cover;
+	}
+
+
+	/* Header Backgrounds */
+	.headBg01_Light {
+		
+	}
+
+
+	/* Paragraph Backgrounds [D] */
+	.paraBg01_Light {
+		background-color: #C8C8C8;
+					   /* White (80%)
+					      R-200
+					      G-200
+						  B-200 */
+		background-position: center;
+		margin-left: 8.33%;
+		margin-right: 8.33%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	
+	
+	/* Parent <div> Backgrounds [D] */
+	.parDivBg01_Light {
+		background-color: #FFFFFF;
+					   /* White (100%)
+						  R-255
+						  G-255
+						  B-255 */
+		position: relative;
+		margin: 10px;
+		padding: 10px;
+	}
+
+	
+	
+	
+	/* Nested (Child) <div> Backgrounds [D] */
+	.nestDivBg-Dark {
+		background-color: ;
+	}
+	
+	
+
+	
+/*===  Dark-Themes  ===*/
+
+	/* Full-Page Backgrounds [D] */
+	.pgBg01_Dark {
+		background-color: #191919;
+					   /* Black (90%)
+					      R-230
+					      G-230
+						  B-230 */
+	}
+	
+	
+	/* Header Backgrounds */
+	.hdBg01_Dark {
+		background-color: #194B7D;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		margin-left: 8.33%;
+		margin-right: 8.33%;
+	}
+	.hdMainSecBg_Dark {
+		background-color: #326496;
+		padding: 15px;
+		margin-top: 8.33%;
+		margin-bottom: 8.33%;
+		margin-left: 8.33%;
+		margin-right: 8.33%;
+	}
+	
+	
+	/* Paragraph Backgrounds [D] */
+	.paraBg01_Dark {
+		background-color: #323232;
+					   /* Black (80%)
+					      R-50
+					      G-50
+						  B-50 */
+		background-position: center;
+		margin-left: 8.33%;
+		margin-right: 8.33%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	
+	
+	/* Parent <div> Backgrounds [D] */
+	.parDivBg01_Dark {
+		background-color: #4B4B4B;
+					   /* Black (70%)
+						  R-75
+						  G-75
+						  B-75 */
+		position: relative;
+		margin: 10px;
+		padding: 10px;
+	}
+	
+	
+	
+	/* Nested (Child) <div> Backgrounds [D] */
+	.nestDivBg-Dark {
+		background-color: ;
+	}
+	
+	
+	
+
+
+
+
+
+	/*###################
+	#                   #
+	#    Text Styles    #
+	#                   #
+	###################*/
+
+
+
+/*===  Light-Themes ===*/
+
+	/* Paragraph Text [L] */
+	.paraText01_Light {
+		color: #191919;
+		    /* Black (90%)
+		       R-25
+		       G-25
+			   B-25 */
+		font-size: 12pt;
+		font-weight: 200;
+	}
+	
+	
+	
+	
+	/* Parent <div> Backgrounds [L] */
+	.parDivText01_Light {
+		color: #191919;
+		    /* Black (90%)
+		       R-25
+		       G-25
+			   B-25 */
+		font-size: 11pt;
+		font-weight: 300;
+	}
+
+	
+	
+	
+	/* Nested (Child) <div> Backgrounds [L] */
+	.nestDivText01_Light {
+		color: #191919;
+		    /* Black (90%)
+		       R-25
+		       G-25
+			   B-25 */
+		font-size: 10pt;
+		font-weight: 400;
+	}
+	
+
+	
+	
+	
+	
+/*===  Dark-Themes  ===*/
+
+	/* Header Text */
+	.hdTitle01_Dark {
+		color: #E6E6E6;
+		font-size: 16pt;
+		font-weight: 300;
+	}
+	.hdSubTitle01_Dark {
+		color: #C8C8C8;
+		font-size: 12pt;
+		font-weight: 300;
+	}
+	
+
+
+	/* Paragraph Text [D] */
+	.paraText01_Dark {
+		color: #E6E6E6;
+		    /* Black (90%)
+		       R-230
+		       G-230
+			   B-230 */
+		font-size: 12pt;
+		font-weight: 200;
+	}
+	
+	
+	
+	/* Parent <div> Text [D] */
+	.parDivText01_Dark {
+		color: #E6E6E6;
+		    /* Black (90%)
+		       R-230
+		       G-230
+			   B-230 */
+		font-size: 11pt;
+		font-weight: 300;
+	}
+	
+	
+	
+	/* Nested (Child) <div> Text [D] */
+	.nestDivText01_Dark {
+		color: #E6E6E6;
+		    /* Black (90%)
+		       R-230
+		       G-230
+			   B-230 */
+		font-size: 10pt;
+		font-weight: 400;
+	}
+
+
+
+
+
+	/*###################
+	#                   #
+	#   Table  Styles   #
+	#                   #
+	###################*/
+
+
+/*===  Misc Columns & Grids  ===*/
+
+	/* RWD Column Grid */
+
+
+
+
+
+
+
+	                   
+		/*===|	┬─┬ノ( º _ ºノ)	|===*/
+
+		/*===|	(╯°□°）╯︵ ┻━┻	|===*/
+
+		/*===|	┻━┻ ︵ ヽ(°□°ヽ)	|===*/
+	
+@import url(
+
+  " ===|   ┻━┻ ︵ ＼( °□° )／ ︵ ┻━┻   |=== ");
+
+
+
+
+
+	/*###################
+	#                   #
+	#      Graphic      #
+	#     SVG/Shape     #
+	#    & Container    #
+	#  Style  Settings  #
+	#                   #
+	###################*/
+
+
+/*===  SVG  ===*/
+
+	/* CSS-Generated SVG */
+	
+
+
+
+
+
+	/*###################
+	#                   #
+	#     Animation     #
+	#                   #
+	###################*/
+
+
+/*===  Transitions  ===*/
+
+	/* Containers & <div> Transitions */
+
+
+
+
+
+
