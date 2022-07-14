@@ -1,1 +1,0 @@
-For uploading templates to sites that don't accept empty files and/or directories.
