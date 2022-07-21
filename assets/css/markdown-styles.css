@@ -1,0 +1,20 @@
+/* Base Page <body> Styles */
+
+
+/*  ❮❮| Shells & Terminals |❯❯  */
+
+#Pwsh, .container {
+	background-color: hsla(200,100%,5%,1.0);
+	background-position: left;
+	size: auto, 100px;
+	background-attachment: fixed;
+	border: 1.5px hsla(195,14%,39%,1.0);
+	border-radius: 10px;
+	box-sizing: 1px 1px 2px hsla(0,0%,5%,1.0) inset;
+	margin: 20px;
+	padding: 10px;
+
+	#Pw > .terminal {
+
+	}
+}
