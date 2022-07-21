@@ -14,7 +14,11 @@
 	margin: 20px;
 	padding: 10px;
 
-	#Pw > .terminal {
-
+	@nest .terminal & {
+		background-attachment: scroll;
 	}
+}
+
+.term {
+	
 }
