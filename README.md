@@ -1,25 +1,22 @@
 # Welcome Web Slingers :sunglasses:
 
-Are you ready to learn how to do the *cool* things you see on websites?
-- __Buttons!__ They can:
-    - They can take you places
-    - Turn off the sun (on your website)
-    - Make pictures *move*
-        - Sometimes with __*sound*__ 😳
-    - Show you things that *weren't even there before*
-    - Launch missiles at another sovereign nation
-- ✨ __*Fancy*__ ✨ Backgrounds
-- Integrate API's & Web Services into a website
-    - __*Note:*__ API/Web Service, & WebApp Construction will likely be part of a separate repo that I'll be setting up specifically for...
-        - Angular & React JS
-        - Python API Framework
-        - REST-ful API Architecture
-        - PHP-based SQL/MySQL/PostgreSQL API's
 
-You better be, because I'm not even finished with that list yet.
 
-<img src="https://static.wixstatic.com/media/40adf8_9405b166893e4c1ba3a620464bb3a323~mv2.gif"
-     alt="Excited"
-     width="400px"/>
 
+<h1>Templates</h1>
+
+Templates are what make the professional creative world go 'round- and as a 15+ year veteran in a <b><i>very</i></b> wide variety of creative fields, 
+
+<h3>Dreamweaver Templates</h3>
+
+Some templates were generated using Dreamweaver, and then (in several cases, <i>heavily</i> modified) in order to provide a comprehensive and easy-to-use repository of templates for everything including:
+
+
+
+<h2>Project Templates</h2>
+
+Below is a list of all the <b>Full Project Templates</b> I have constructed so far, organized (in a very broad sense) by category. PLEASE NOTE that many (if not all) of the templates are still under construction at this time, and will be clearly marked as such.
+
+
+<h3>Simple Projects</h3>
 
