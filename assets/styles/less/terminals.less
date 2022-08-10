@@ -1,0 +1,30 @@
+//+ Midnight Terminal Colors
+@Midnight:			hsla(200, 100%, 5%, 1.0);
+/** 	HEXa: 		#00111Aff
+* 		RGBa: 		rgba(0, 17, 26, 1.0) */
+@MidnightFrame: 	hsla(195, 14%, 39%, 1.0);
+
+
+@TermBorder: 1.5px solid @MidnightFrame;
+@TermShadow: 1px 1px 2px hsla(0, 0%, 5%, 1) inset;
+@ShellFont: "Fira Code", monospace;
+@ShellTextColor: hsla(0, 0%, 90%, 1);
+
+.terminal {
+	background-color: @Midnight;
+	background-position: left;
+	background-size: auto 100px;
+	background-attachment: fixed;
+	border: @TermBorder;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px hsla(0, 0%, 5%, 1) inset;
+	// width: 60%;
+	padding: 5px;
+	& .shell {
+		background-attachment: scroll;
+		font-family: "Fira Code", monospace;
+		font-size: 10px;
+		font-weight: 400;
+		// color: hsla(0,0%,90%,1.00);
+	}
+}
