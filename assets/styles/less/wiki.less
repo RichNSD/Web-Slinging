@@ -1,0 +1,63 @@
+//! Google Fonts Import
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Assistant:wght@200;300;400;500;600;700;800&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Fira+Code:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Questrial&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+//* Body
+@pageBgColor: 			hsla(0, 0%, 10%, 1.0);
+@containerBgColor: 		lighten(@pageBgColor, 15%);
+@mainFontColor: 		hsla(0, 0%, 80%, 1.0);
+@ibStyleColor: 			lighten(@mainFontColor, 10%);
+@emstrStyleColor: 		lighten(@mainFontColor, 20%);
+@headerColor: 			lighten(@mainFontColor, 30%);
+@mainFontFamily: 		'Albert Sans', sans-serif;
+@codeFontFamily: 		'Fira Code', monospace;
+@hFontFamily: 			'Fira Code', monospace;
+
+
+//* Header
+@hContBgColor: 			lighten(@containerBgColor, 15%);
+@hFontFamily: 			'Albert Sans', sans-serif;
+@titleColor: 			lighten(@mainFontColor, 30%);
+@subtitleColor: 		lighten(@mainFontColor, 20%);
+
+
+
+
+body {
+	background-color: @pageBgColor;
+	background-size: cover;
+	font-family: @mainFontFamily;
+	font-size: 14px;
+	font-weight: 400;
+	& .container {
+		background-color: @containerBgColor;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 15px;
+	}
+	& h1, h2, h3 {
+		font-family: @codeFontFamily;
+		color: @headerColor;
+		font-weight: 500;
+	}
+	
+}
+
+.headContainer {
+	background-color: @hContBgColor;
+	padding: 15px;
+	margin: 20px;
+	& header {
+		font-family: @hFontFamily;
+		& h1, h2, h3 {
+			color: @titleColor;
+			font-weight: 600;
+		}
+		.subtitle {
+			color: @subtitleColor;
+			font-size: 16px;
+			font-weight: 500;
+		}
+	}
+}
