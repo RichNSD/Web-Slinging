@@ -5,5 +5,3 @@ if ($ErrorView /= 'CategoryView') {
 
 
 Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/NewSpectrum/Web-Slinging/main/templates/elements/styles/less/tables.less' -PassThru -Verbose -OutFile '$HOME\Desktop\tables.less'
-
-
